@@ -1,6 +1,30 @@
+.red {
+    background: red;
+}
+.green {
+    background: green;
+}
+.blue {
+    background: blue;
+}
+
+
+
+.img {
+    background-size: cover;
+    background-position: center;
+}
+
+
+section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 #top {
-    height: 100vh;
     padding: 0;
+    height: 100vh;
     background-image: url(https://wallpaperaccess.com/full/5782770.jpg);
     background-blend-mode: multiply;
     background-color: RGBA(46, 58, 68, 0.9);
@@ -8,12 +32,34 @@
     background-position: center;
 }
 
-#one {
-    min-height: 100vh;
-    padding-bottom: 100vh;
+
+
+#one, #three, #five, #seven {
     background: #ecf0f1;
 }
 
-.red {
-    background: red;
+#two, #four, #six {
+    background: #d6dadd;
+}
+
+#img_1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1f/%D0%9A%D0%B8%D1%94%D0%B2%D0%BE-%D0%9F%D0%B5%D1%87%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%B0_%D0%BB%D0%B0%D0%B2%D1%80%D0%B0._%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80.jpg);
+}
+#img_2 {
+    background: #000;
+}
+#img_3 {
+    background: #000;
+}
+#img_4 {
+    background: #000;
+}
+#img_5 {
+    background: #000;
+}
+#img_6 {
+    background: #000;
+}
+#img_7 {
+    background: #000;
 }
