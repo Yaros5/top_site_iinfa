@@ -1,0 +1,19 @@
+#top {
+  height: 100vh;
+  padding: 0;
+  background-image: url(https://wallpaperaccess.com/full/5782770.jpg);
+  background-blend-mode: multiply;
+  background-color: RGBA(46, 58, 68, 0.9);
+  background-size: cover;
+  background-position: center;
+}
+
+#one {
+  min-height: 100vh;
+  padding-bottom: 100vh;
+  background: #ecf0f1;
+}
+
+.red {
+  background: red;
+}
