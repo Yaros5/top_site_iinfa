@@ -1,18 +1,10 @@
-.red {
-  background: red;
-}
-
-.green {
-  background: green;
-}
-
-.blue {
-  background: blue;
-}
-
 .img {
+  min-height: 40vh;
+  border-radius: 25px;
   background-size: cover;
   background-position: center;
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(34, 60, 80, 0.45);
+          box-shadow: 0px 0px 50px 0px rgba(34, 60, 80, 0.45);
 }
 
 section {
@@ -30,13 +22,20 @@ section {
   background-size: cover;
   background-position: center;
 }
-
-#one, #three, #five, #seven {
-  background: #ecf0f1;
+#top .container h1 {
+  padding-top: 20%;
 }
 
-#two, #four, #six {
+#my-card div {
+  border-radius: 25px;
+}
+
+#one, #three, #five, #seven {
   background: #d6dadd;
+}
+
+#two, #four, #six, #contacts {
+  background: #ecf0f1;
 }
 
 #img_1 {
@@ -44,25 +43,25 @@ section {
 }
 
 #img_2 {
-  background: #000;
+  background-image: url(https://tamtour.com.ua/local/image/236/009/e1141d8077f72563dfbb304ca0c76b59-01-kamenets-podolskiy-depositphotos-41792869-original.jpg);
 }
 
 #img_3 {
-  background: #000;
+  background-image: url(https://lh3.googleusercontent.com/proxy/xt3jUr8bGA0yqvVEvuucXq6ylX8MsAT_CQ1vBH4Vhk-qdIoqbGaqncQaVgdbTVwugrn-VP5IEV8QdjtKlKeOB5Yl4dkz94TY2SY1PSSCjFsQPwLH);
 }
 
 #img_4 {
-  background: #000;
+  background-image: url(https://kyiv.media/wp-content/uploads/2020/07/sofiya-kyyivska-fejsbuk-13-07-2020.jpg);
 }
 
 #img_5 {
-  background: #000;
+  background-image: url(https://travelcrimea.com/images/53/61/536148.jpg);
 }
 
 #img_6 {
-  background: #000;
+  background-image: url(https://v-mandry.com/wp-content/uploads/2018/06/%D0%A1%D1%96%D1%87_%D0%B7_%D0%B2%D0%B8%D1%81%D0%BE%D1%82%D0%B8_%D0%BF%D0%BE%D0%BB%D1%8C%D0%BE%D1%82%D1%83.jpg);
 }
 
 #img_7 {
-  background: #000;
+  background-image: url(https://karpaty.love/uploads/posts/2017-12/1513197841_khotynska-fortecja-25.jpg);
 }
